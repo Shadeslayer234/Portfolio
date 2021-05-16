@@ -111,6 +111,11 @@ html.fp-enabled {
     transition: none!important
 }
 
+.hidden{
+    visibility: hidden;
+    height: 0;
+}
+
 #fp-nav {
     position: fixed;
     z-index: 100;
