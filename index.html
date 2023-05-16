@@ -20,26 +20,75 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Oxanium:wght@300;400&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
-    <header class="nav-container">
+    <header class="container">
         <nav class="main-nav">
             <div class="logo">
                 <img src="/images/Praveen Weerabahu logo.svg" alt="logo image">
             </div>
             <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <h2>Hello</h2>
-    <h1>I'm Praveen Weerabahu</h1>
+    <main>
+        <section class="hero container">         
+            <div class="hero-cta">
+                <h2>Hello</h2>
+                <h1>I'm Praveen Weerabahu</h1>
+                <p>I've been doing web design, front-end and backend development for 3 years now. Do you need a website design, site layout, or maybe a turnkey website? Get in touch!</p>
+                <button><a href="#">Contact Me</a></button>
+
+            </div>
+            <div class="hero-image-container">
+                <figure class="profile">
+                    <img src="images/Hero Image.png" alt="An image of me.">
+                </figure>
+                <figure class="blob ps">
+                    <img src="images/ps.svg" alt="">
+                </figure>
+                 <figure class="blob ux">
+                    <img src="images/Ux.svg" alt="">
+                </figure>
+                <figure class="blob ui">
+                    <img src="images/UI.svg" alt="">
+                </figure>
+                <figure class="blob code">
+                    <img src="images/Code.svg" alt="">
+                </figure>
+
+            </div>
+        </section>
+
+
+        <section class="services">
+
+                <figure class="service">
+                    <img src="images/motion.svg" alt="An image of me.">
+                </figure>
+                <figure class="service">
+                    <img src="images/UIUX.svg" alt="">
+                </figure>
+                 <figure class="service">
+                    <img src="images/fontisto_nav-icon-listicon.svg" alt="">
+                </figure>
+                <figure class="service">
+                    <img src="images/code-servive.svg" alt="">
+                </figure>
+                <figure class="service">
+                    <img src="images/Frontend.svg" alt="">
+                </figure>
+
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
