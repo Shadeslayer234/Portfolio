@@ -11,8 +11,8 @@ a{
 }
 .container{
      margin: 0 auto;
+     width: 80%;     
      max-width: 1920px;
-     width: 80%; 
 }
 
 /* 
@@ -148,13 +148,220 @@ font-family: 'Bai Jamjuree', sans-serif;
 font-family: 'Oxanium', cursive;
  */
 
-.services{
 
-     background-color: #414141;
+
+/*                        Services Section                            */
+
+.background-1{
+    background-color: #414141;
+}
+
+.services{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap:50px;
+     width:40%;
+     margin: 0 auto;
+     margin-top: 80px;
+     padding-top: 40px;
+     
+
 }
 
 .service{
+    width: 200px;
+    height: 200px;
+    max-width: 270px;
+    max-height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center; 
     background: #2A2A2A;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
     border-radius: 29px;
+}
+
+.service img{
+    width:35%;
+}
+
+#ui-service img{
+    width: 70%;
+}
+
+/* 
+                                        About Me
+*/
+
+.about-me{
+    background-image: url('../images/Ellipse Orange.svg'),url('../images/Ellipse blue.svg'),url('../images/Ellipse green.svg');  
+    background-repeat: no-repeat;
+    background-size:24%, 30%, 45%;
+    background-position: top 20px left, bottom 50px left, right bottom 100px;
+    /* margin-top: 150px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: -5px; */
+    align-items: center;
+    flex-wrap: nowrap;
+    height:100vh;
+}
+.about-me-text{
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    background: #2C2C2C;
+    border-radius: 0 15px 15px 0;
+}
+
+.about-me-text p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+
+.about-image-container{
+    width:22%;
+}
+
+.about-image-container.first-column{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-me-img{
+    background: #2C2C2C;
+    width:  100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px 0 10px 10px; */
+}
+
+.img-one{
+    border-radius: 15px 15px 0 15px;
+}
+
+.img-two{
+    border-radius:  15px 0  15px 15px;
+}
+
+.img-three{
+    border-radius: 0 15px 15px 0;
+}
+
+.about-me-img img{
+    width: 80%;
+    
+    height: auto;
+    box-shadow: 0px 0px 0px 4px #686868;
+    border-radius: 5px;
+    
+}
+
+
+
+/* 
+                                PORTFOLIO
+*/
+
+.portfolio h2{
+    font-size: 40px;
+    text-align: center;
+    padding:20px 0 40px 0;
+}
+
+.portfolio-control-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-item-container{
+    width:60%;
+    /* margin:0 auto; */
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    /* border:1px solid red; */
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 30px;
+}
+
+.portfolio-item-container figure{
+    width:60%;
+}
+
+.portfolio-item-container figure img{
+    width:100%;
+    border-radius: 30px;
+}
+
+.portfolio-item-text{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:30%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* 
+                                FOOTER
+*/
+
+
+.footer{
+    margin-top:80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #414141;
+    height:20vh;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.footer-logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap:20px; */
+    height: 80%;
+}
+
+.footer-logo-container figure{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-container figure img{
+    width:70%;
+    height: 50px;
 }
