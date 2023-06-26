@@ -1,178 +1,694 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Praveen Weerabahu Portfolio">
 
+    <!-- title -->
     <title>Praveen Weerabahu</title>
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/images/site.webmanifest">
-    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/images/favicon.ico">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-config" content="/images/browserconfig.xml">
-    <meta name="theme-color" content="#040613">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Oxanium:wght@300;400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/mean-menu.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <header class="container">
-        <nav class="main-nav">
-            <div class="logo">
-                <img src="/images/Praveen Weerabahu logo.svg" alt="logo image">
-            </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero container">         
-            <div class="hero-cta">
-                <h2>Hello</h2>
-                <h1>I'm Praveen Weerabahu</h1>
-                <p>I've been doing web design, front-end and backend development for 3 years now. Do you need a website design, site layout, or maybe a turnkey website? Get in touch!</p>
-                <button><a href="#">Contact Me</a></button>
-
-            </div>
-            <div class="hero-image-container">
-                <figure class="profile">
-                    <img src="images/Hero Image.png" alt="An image of me.">
-                </figure>
-                <figure class="blob ps">
-                    <img src="images/ps.svg" alt="">
-                </figure>
-                 <figure class="blob ux">
-                    <img src="images/Ux.svg" alt="">
-                </figure>
-                <figure class="blob ui">
-                    <img src="images/UI.svg" alt="">
-                </figure>
-                <figure class="blob code">
-                    <img src="images/Code.svg" alt="">
-                </figure>
-
-            </div>
-        </section>
-
-        <div class="background-1">
-            <section class="services">
-
-                <figure class="service">
-                    <img src="images/motion.svg" alt="An image of me.">
-                    <p>Motion</p>
-                </figure>
-                <figure class="service" id="ui-service">
-                    <img src="images/UIUX.svg" alt="">
-                    <p>UX/UI Design</p>
-                </figure>
-                 <figure class="service">
-                    <img src="images/fontisto_nav-icon-listicon.svg" alt="">
-                    <p>Icon Design</p>
-                </figure>
-                <figure class="service">
-                    <img src="images/code-servive.svg" alt="">
-                    <p>Backend</p>
-                </figure>
-                <figure class="service">
-                    <img src="images/Frontend.svg" alt="">
-                    <p>Frontend</p>
-                </figure>
-
-            </section>
-
-            <section class="about-me container">
-
-                <!-- <img src="images/Ellipse Orange.svg" alt="" srcset="">
-                <img src="images/Ellipse blue.svg" alt="" srcset="">
-                <img src="images/Ellipse green.svg" alt="" srcset=""> -->
-                
-                    <div class="about-image-container first-column">
-                        <figure class="about-me-img img-one">
-                            <img src="images/1.jpg" alt="" srcset="">
-                        </figure>
-                        <figure class="about-me-img img-two">
-                            <img src="images/3.jpg" alt="" srcset="">
-                        </figure>   
+    <!-- header area -->
+    <div class="header-area">
+        <div class="container mt-60 pl-0 pr-0">
+            <div class="row justify-content-lg-between">
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 pl-xl-0">
+                    <!-- logo -->
+                    <div class="logo-area">
+                        <a href="/index.html">
+                            <img src="assets/img/logo/logo23.png" alt="Logo" />
+                        </a>
                     </div>
-                    <div class="about-me-text">
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-8 col-8 pr-0">
+                    <div class="menu-area menu-social float-right">
+                        <ul class="list-inline pl-15">
+                            <!-- <li class="list-inline-item menu-border"><a href="#"><i class="fab fa-skype"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li> -->
+                            <li class="list-inline-item"><a href="https://twitter.com/ShadeSlayer_dev"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    <nav id="mobile-nav">
+                        <div class="menu-area float-right">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                                <li class="list-inline-item"><a href="index.html#portfolio">Portfolio</a>
+                                    <!-- <ul class="sub-menu pb-10 pt-10 pl-15 pr-15">
+                                        <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                    </ul> -->
+                                </li>
+                                <!-- <li class="list-inline-item"><a href="index.html#blog">Blog</a>
+                                    <ul class="sub-menu pb-10 pt-10 pl-15 pr-15">
+                                        <li><a href="blog-list.html">Blog List</a></li>
+                                        <li><a href="news-details.html">News Details</a></li>
+                                    </ul>
+                                </li> -->
+                                <li class="list-inline-item"><a href="index.html#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header area ends -->
+
+
+    <!-- slider area -->
+    <div class="slider-area">
+        <!-- <div class="slider-activator"> -->
+            <div class="slide-item">
+                <div class="container pt-130 pl-xl-0 pr-0">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 pl-xl-0">
+                            <div class="slider-left">
+                                <div class="name">
+                                    <h1>Praveen<br /> Weerabahu <br/> aka <br/> SHADE
+                                    <!-- <span class="hero-span">AKA</span><br> -->
+                                    <!-- <span class="hero-shade">SHADESLAYER</span> -->
+                                </h1>
+                                </div>
+                                <div class="dash"></div>
+                                <div class="social-links mb-40">
+                                    <a href="https://www.instagram.com/arafatjamil01/">Instagram</a> | <a
+                                        href="https://linkedin.com/in/arafatjamil01">LinkedIn</a> <br />
+                                    <a href="https://behance.net/wpsmasher">Behance</a> | <a
+                                        href="https://dribbble.com/wpsmasher">Dribbble</a>
+                                </div>
+                                <div class="slider-cta">
+                                    <a href="index.html#contact" class="ct-btn">Contact me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-7 pl-0">
+                            <div class="profile-pic">
+                                <img class="img-fluid" src="assets/img/slider/profile-fit-removebg-preview.png" alt="Praveen Weerabahu" />
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 slider-area-intro">
+                            <div class="into-area">
+                                <div class="section-title">
+                                    <h3 class="section-name pc">INTRODUCTION</h3>
+                                    <h2>UI/UX Designer/<br />
+                                        Web Developer</h2>
+                                    <p class="pr-20">
+                                         I specialize in creating immersive digital experiences and building dynamic web applications. With a strong focus on user-centric design and expertise in both front-end and back-end technologies, I aim to deliver seamless interfaces and robust solutions. Let's work together to bring your ideas to life and achieve outstanding online experiences.
+                                    </p>
+
+                                </div>
+                                <div class="intro-button">
+                                    <a href="#services" class="btn-animation mr-btn">Learn more &nbsp;<i
+                                            class="fas fa-long-arrow-alt-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="slide-item">
+                <div class="container pt-130 pl-xl-0 pr-0">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 pl-xl-0">
+                            <div class="slider-left">
+                                <div class="name">
+                                    <h1>Elon <br /> Musk<span class="pc">.</span></h1>
+                                </div>
+                                <div class="dash"></div>
+                                <div class="social-links mb-40">
+                                    <a href="https://www.instagram.com/arafatjamil01/">Instagram</a> | <a
+                                        href="https://linkedin.com/in/arafatjamil01">LinkedIn</a> <br />
+                                    <a href="https://behance.net/wpsmasher">Behance</a> | <a
+                                        href="https://dribbble.com/wpsmasher">Dribbble</a>
+                                </div>
+                                <div class="slider-cta">
+                                    <a href="#" class="ct-btn">Contact me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-7 pl-0">
+                            <div class="profile-pic">
+                                <img class="img-fluid" src="assets/img/slider/person.png" alt="jack harper" />
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 slider-area-intro">
+                            <div class="into-area">
+                                <div class="section-title">
+                                    <h3 class="section-name pc">INTRODUCTION</h3>
+                                    <h2>CEO Engineer,<br />
+                                        Entrepreneur, <br />
+                                        Start Up</h2>
+                                    <p class="pr-20">
+                                        Lorem ipsum dolor sit amet, consectetur adip
+                                        cing elit, sed do eiusmod tempor incidid
+                                        unt ut labore et dolorepore magna aliqua.
+                                    </p>
+
+                                </div>
+                                <div class="intro-button">
+                                    <a href="#services" class="btn-animation mr-btn">Learn more &nbsp;<i
+                                            class="fas fa-long-arrow-alt-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="slide-item">
+                <div class="container pt-130 pl-xl-0 pr-0">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 pl-xl-0">
+                            <div class="slider-left">
+                                <div class="name">
+                                    <h1>Arafat <br /> Jamil<span class="pc">.</span></h1>
+                                </div>
+                                <div class="dash"></div>
+                                <div class="social-links mb-40">
+                                    <a href="https://www.instagram.com/arafatjamil01/">Instagram</a> | <a
+                                        href="https://linkedin.com/in/arafatjamil01">LinkedIn</a> <br />
+                                    <a href="https://behance.net/wpsmasher">Behance</a> | <a
+                                        href="https://dribbble.com/wpsmasher">Dribbble</a>
+                                </div>
+                                <div class="slider-cta">
+                                    <a href="#" class="ct-btn">Contact me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-7 pl-0">
+                            <div class="profile-pic">
+                                <img class="img-fluid" src="assets/img/slider/person.png" alt="jack harper" />
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 col-8 slider-area-intro">
+                            <div class="into-area">
+                                <div class="section-title">
+                                    <h3 class="section-name pc">INTRODUCTION</h3>
+                                    <h2>Content creator,<br />
+                                        Freelance writer, <br />
+                                        Developer</h2>
+                                    <p class="pr-20">
+                                        Lorem ipsum dolor sit amet, consectetur adip
+                                        cing elit, sed do eiusmod tempor incidid
+                                        unt ut labore et dolorepore magna aliqua.
+                                    </p>
+
+                                </div>
+                                <div class="intro-button">
+                                    <a href="#services" class="btn-animation mr-btn">Learn more &nbsp;<i
+                                            class="fas fa-long-arrow-alt-down"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    </div>
+    <!-- slider area ends -->
+
+    <!-- services area -->
+    <div class="services-area pt-120 bgs" id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7">
+                    <div class="section-title text-center">
+                        <h3 class="section-name pc">SERVICES</h3>
+                        <h2>What I Am Great At</h2>
                         <p>
-                            Hello again everyone! So, you already know that my name is Gleb. A little about myself: student, 18 y.o., athlete-football player, I love creativity since childhood, I live in Donetsk, Ukraine. Why programming? Everything is elementary - I like it, the profession of the future, thanks to which I can provide myself and fulfill my dream - travel, at the moment I specialize in web design, front-end and back-end development, turnkey websites. Why should you choose me? I approach each order with great responsibility and love, as I want to make a name for myself, exclude plagiarism and negligence, fully study the project, the client and its target audience, work for quality, trying to make an order as quickly and uniquely as possible, taking into account all the edits and wishes.
-                            By trusting me, you will get the maximum return for your project, save your nerves and time.
-                            If you are interested in me , you want to know something more or use my services, then I will provide all my contacts below.
+                            I offer a range of specialized solutions. From building WordPress website themes from scratch to creating WordPress websites using page builders, I have the expertise to bring your vision to life. Additionally, I provide services for website optimization and maintenance, ensuring your site performs at its best and remains up-to-date. Trust me to deliver exceptional web solutions with great UI/UX tailored to your specific requirements.
                         </p>
+
                     </div>
-                    <div class="about-image-container">
-                        <figure class="about-me-img img-three">
-                                <img src="images/2.jpg" alt="" srcset="">
-                        </figure>
-                    </div>  
-            </section>
+                </div>
+            </div>
         </div>
 
-        <section class="portfolio container">
-            <h2>Portfolio</h2>
-
-            <div class="portfolio-control-container">
-                <figure>
-                    <img src="images/left-arrow.svg" alt="" srcset="">
-                </figure>
-                <div class="portfolio-item-container">
-                    <figure>
-                        <img src="images/genesis-cloud.png" alt="" srcset="">
-                    </figure>
-                    <div class="portfolio-item-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet impedit officia aliquid quasi suscipit ex quis. Minus harum eos molestias fugiat, tenetur distinctio voluptate molestiae perspiciatis corrupti. Cumque, odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed quas dolorem provident tempora tempore sapiente illum ex, obcaecati hic, praesentium architecto soluta nulla eveniet rem pariatur debitis eum assumenda.</p>
-    
-                        <button>Learn more</button>
+        <div class="container">
+            <div class="row service-row mt-45">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div class="project-card text-center bgp pt-75 pb-50 mb-30">
+                        <div class="icon mb-20">
+                            <img src="assets/img/icons/pen.png" alt="design" />
+                            <img class="d-none" src="assets/img/icons/pen-yellow.png" alt="design" />
+                        </div>
+                        <div class="skill-project">
+                            <h4 class="mb-5">UI/UX Design</h4>
+                            <!-- <p>129 projects</p> -->
+                        </div>
                     </div>
                 </div>
 
-                <figure>
-                    <img src="images/right-arrow.svg" alt="" srcset="">
-                </figure>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div class="project-card text-center bgp pt-75 pb-50 mb-30">
+                        <div class="icon mb-20">
+                            <img src="assets/img/icons/code-white.png" alt="design" />
+                            <img class="d-none" src="assets/img/icons/code.png" alt="design" />
+                        </div>
+                        <div class="skill-project">
+                            <h4 class="mb-5">Wordpress Development</h4>
+                            <!-- <p>221 projects</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div class="project-card text-center bgp pt-75 pb-50 mb-30">
+                        <div class="icon mb-20">
+                            <img src="assets/img/icons/search.png" alt="design" />
+                            <img class="d-none" src="assets/img/icons/search-yellow.png" alt="design" />
+                        </div>
+                        <div class="skill-project">
+                            <h4 class="mb-5">Website Optimization</h4>
+                            <!-- <p>450 projects</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                    <div class="project-card text-center bgp pt-75 pb-50 mb-30">
+                        <div class="icon mb-20">
+                            <img src="assets/img/icons/marketing-white.png" alt="design" />
+                            <img class="d-none" src="assets/img/icons/marketing.png" alt="design" />
+                        </div>
+                        <div class="skill-project">
+                            <h4 class="mb-5">Website Maintenance</h4>
+                            <!-- <p>331 projects</p> -->
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
 
-    </main>
+        <!-- counter area -->
+        <div class="counter-area pb-80">
+            <div class="container">
+                <div class="row mt-40">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="counter-item text-center mb-30">
+                            <h4 class="pc"><span class="count">09</span> +</h4>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="counter-item text-center mb-30">
+                            <h4 class="pc"><span class="count">200</span> +</h4>
+                            <p>Satisfied Customers</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="counter-item text-center mb-30">
+                            <h4 class="pc"><span class="count">769</span> +</h4>
+                            <p>Design Items</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                        <div class="counter-item text-center mb-30">
+                            <h4 class="pc"><span class="count">124</span> +</h4>
+                            <p>Clients Served</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- counter area ends -->
 
-    <footer class="footer">
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>About me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
+    </div>
+    <!-- services area ends -->
+
+    <!-- portfolio area -->
+    <div class="portfolio-area pt-115 pb-90" id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7">
+                    <div class="section-title text-center">
+                        <h3 class="section-name pc">PORTFOLIO</h3>
+                        <h2>My Masterpiece Collection</h2>
+                        <p>
+                           Here you can explore a collection of my best work showcasing my skills in UI/UX design and Full Stack Web Development. From visually appealing interfaces to user-friendly web applications, each project exemplifies my attention to detail and commitment to excellence. Take a look at my portfolio to see the quality and creativity I bring to every project.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-9 col-sm-8">
+                    <div class="pofo-cat mb-40 text-center">
+                        <button class="active" data-filter="*">ALL</button>
+                        <button data-filter=".cat1">UI / UX</button>
+                        <button data-filter=".cat2">WEB DEVELOPMENT</button>
+                        <button data-filter=".cat3">WEB RESEARCH</button>
+                        <button data-filter=".cat4">MARKETING</button>
+                    </div>
+                    <div class="pofo-line"></div>
+                </div>
+            </div> -->
+
+            <div class="row grid mt-20">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 grid-item cat1 cat4">
+                    <div class="portfolio-wrapper mb-30">
+                        <div class="portfolio-thumb">
+                            <img class="mx-auto" src="assets/img/portfolio/tenzies.jpg" alt="portfolio 1">
+                        </div>
+                        <div class="overlay">
+                            <a href="assets/img/portfolio/tenzies-ovarlay.jpg">
+                                <img src="assets/img/portfolio/icon.png" alt="plus icon">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 grid-item cat2 cat3">
+                    <div class="portfolio-wrapper mb-30">
+                        <div class="portfolio-thumb">
+                            <img src="assets/img/portfolio/weedesign.jpg" alt="portfolio 3">
+
+                        </div>
+                        <div class="overlay">
+                            <a href="assets/img/portfolio/Weedesign-ovarlay.png">
+                                <img src="assets/img/portfolio/icon.png" alt="plus icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 grid-item grid-item-4 cat4">
+                    <div class="portfolio-wrapper mb-30">
+
+                        <div class="portfolio-thumb">
+                            <img class="mx-auto" src="assets/img/portfolio/hoobank.jpg" alt="portfolio 4">
+
+                        </div>
+                        <div class="overlay">
+                            <a href="assets/img/portfolio/hoobank-overlay.png">
+                                <img src="assets/img/portfolio/icon.png" alt="plus icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 grid-item cat3">
+                        <div class="portfolio-wrapper mb-30">
+                            <div class="portfolio-thumb">
+                                <a href="portfolio-details.html">
+                                    <img class="mx-auto" src="assets/img/portfolio/daraz.png" alt="portfolio 4">
+                                </a>
+                            </div>
+                            <div class="overlay">
+                                <a href="assets/img/portfolio/daraz-overlay.png">
+                                    <img src="assets/img/portfolio/icon.png" alt="plus icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <ul>
-                <li>Contact Details</li>
-                <li>Email: praveen.weerabahu@gmail.com</li>
-                <li>github: shadeslayer234</li>
-                <li>Mobile: +9471 090 6602</li>
-            </ul>
+    </div>
+    <!-- portfolio area ends -->
+
+    <!-- news section starts -->
+    
+    <!-- <div class="news-area pt-110 bgs" id="blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-xl-6">
+                    <div class="section-title text-center">
+                        <h3 class="section-name pc">LATEST NEWS</h3>
+                        <h2>My Latest Articles</h2>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida
+                            non proident, sunt in culpa qui officia
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-45 pb-90">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single-blog mb-30 pb-40">
+                        <div class="blog-img">
+                            <img src="assets/img/news/blog-1.jpg" alt="news item 1">
+                        </div>
+                        <div class="blog-meta">
+                            <div class="date">
+                                Jun 12,20
+                            </div>
+                        </div>
+                        <div class="blog-details pl-30 mt-35 pr-30">
+                            <div class="blog-title mb-10">
+                                <a href="news-details.html">
+                                    <h2>The Mystery Of Positive
+                                        And Negative Space...</h2>
+                                </a>
+                            </div>
+                            <p class="mb-10">
+                                Lorem ipsum dolor sit amet, conscetur adi pisi cing elit, sed do eius tempor in cididunt
+                                ut labore et dolore magna qua. Ut enim ad minim veniam.
+                            </p>
+                            <div class="blog-button">
+                                <a href="news-details.html">Read More &nbsp; <i class="fas fa-angle-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single-blog mb-30 pb-40">
+                        <div class="blog-img">
+                            <img src="assets/img/news/blog-2.jpg" alt="news item 2">
+
+                        </div>
+                        <div class="play-btn">
+                            <a href="https://www.youtube.com/watch?v=Mo0WEEfbmKE" class="mfp-iframe">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="blog-meta">
+                            <div class="date">
+                                Jun 12,20
+                            </div>
+
+                        </div>
+                        <div class="blog-details pl-30 mt-35 pr-30">
+                            <div class="blog-title mb-10">
+                                <a href="news-details.html">
+                                    <h2>The Mystery Of Positive
+                                        And Negative Space...</h2>
+                                </a>
+                            </div>
+                            <p class="mb-10">
+                                Lorem ipsum dolor sit amet, conscetur adi pisi cing elit, sed do eius tempor in cidi
+                                dunt ut labore et dolore magna qua. Ut enim ad minim veniam.
+                            </p>
+                            <div class="blog-button">
+                                <a href="news-details.html">Read More &nbsp; <i class="fas fa-angle-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog-item-small pr-20">
+                        <div class="blog-meta">
+                            <div class="date">
+                                Apr 28,20
+                            </div>
+                        </div>
+
+                        <div class="blog-small-img mr-20 float-left">
+                            <img src="assets/img/news/blog-3.jpg" alt="blog 3">
+                        </div>
+
+                        <div class="blog-small-description pt-20 pb-20">
+                            <a href="news-details.html">
+                                <h2>The Secrets Of Online
+                                    Marketing That ...
+                                </h2>
+                            </a>
+                            <p>Lorem ipsum dolor sit
+                                amet, consecetur el..
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="blog-item-small pr-20">
+                        <div class="blog-meta">
+                            <div class="date">
+                                Apr 28,20
+                            </div>
+                        </div>
+                        <div class="blog-small-img mr-20 float-left">
+                            <img src="assets/img/news/blog-4.jpg" alt="blog 3">
+                        </div>
+
+                        <div class="blog-small-description pt-20 pb-20">
+                            <a href="news-details.html">
+                                <h2>The Secrets Of Online
+                                    Marketing That ...
+                                </h2>
+                            </a>
+                            <p>Lorem ipsum dolor sit
+                                amet, consecetur el..
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="blog-item-small pr-20">
+                        <div class="blog-meta">
+                            <div class="date">
+                                Apr 28,20
+                            </div>
+                        </div>
+                        <div class="blog-small-img mr-20 float-left">
+                            <img src="assets/img/news/blog-5.jpg" alt="blog 3">
+                        </div>
+
+                        <div class="blog-small-description pt-20 pb-20">
+                            <a href="news-details.html">
+                                <h2>The Secrets Of Online
+                                    Marketing That ...
+                                </h2>
+                            </a>
+                            <p>Lorem ipsum dolor sit
+                                amet, consecetur el..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="footer-logo-container">
-             <figure>
-                <img src="images/Praveen Weerabahu logo.svg" alt="logo" srcset="">
-                <img src="images/upward-arrow.svg" alt="" srcset="">
-             </figure>
-             <p>Copyright©2024,SHADE</p>
+    </div> -->
+    
+    <!-- news section ends -->
+
+    <!-- contact area starts -->
+    <div class="contact-area pt-30" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section-title text-center">
+                        <h3 class="section-name pc">CONTACT US</h3>
+                        <h2>Ways To Contact Me</h2>
+                        <p>
+                            Feel free to reach out to me for any inquiries, collaborations, or questions you may have. I'm here to listen and provide personalized assistance to help you achieve your goals. Contact me today and let's start a conversation!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="/js/script.js"></script>
+        <div class="container mt-55 pb-90">
+            <div class="row justify-content-center">
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                    <div class="contact-item d-flex justify-content-center">
+                        <div class="ct-item-icon float-left pr-10">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <a class="btn-animation" href="tel:+94710906602">+94 71 090 6602 </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                    <div class="contact-item d-flex justify-content-center">
+                        <div class="ct-item-icon float-left pr-10">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <a class="btn-animation" href="https://twitter.com/ShadeSlayer_dev">@ShadeSlayer_dev</a>
+                    </div>
+                </div>
+
+                <!-- <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                    <div class="contact-item">
+                        <div class="ct-item-icon float-left ml-30 mr-20">
+                            <i class="fab fa-skype"></i>
+                        </div>
+                        <a class="btn-animation" href="https://themeforest.net/user/wpsmasher">live:arafatjamil01</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row justify-content-center">
+                
+
+                <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
+                    <div class="contact-item d-flex justify-content-center">
+                        <div class="ct-item-icon float-left pr-10">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <a class="btn-animation" href="mailto: praveen.weerabahu@gmail.com">praveen.weerabahu@gmail.com</a>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                    <div class="contact-item">
+                        <div class="ct-item-icon float-left ml-30 mr-20">
+                            <i class="fab fa-dribbble"></i>
+                        </div>
+                        <a class="btn-animation" href="https://themeforest.net/user/wpsmasher">wpsmasher</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- contact area ends -->
+
+    <!-- footer copyright area starts -->
+    <div class="footer-area">
+        <div class="copyright-text text-center">
+            <p class="pt-20"><i class="fas fa-copyright mr-10"></i>Copyright - SHADESLAYER | All Rights Reserved</p>
+        </div>
+
+        <div class="back-to-top">
+            <a href="#"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+    <!-- footer copyright area end -->
+
+
+    <!-- scripts -->
+    <script src="assets/js/jquery-2.2.4.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-1.12.4.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/waypoint.min.js"></script>
+    <script src="assets/js/countup.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/jquery-mean-menu.min.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
